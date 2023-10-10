@@ -11,8 +11,16 @@ h2 {
 h3 {
     font-family: 'Glass Antiqua', cursive;
 }
+.column {
+    float: left;
+    width: 50%;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 #footer {
      font-size: smaller;
      text-align: right;
     }
-    
